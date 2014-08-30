@@ -8,6 +8,11 @@
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <style type="text/css">
+      body {
+        margin-top: 20px;
+      }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,31 +24,3 @@
   <body>
 
   <div class="container">
-
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="<?php echo site_url() ?>">Blog (CRUD with CodeIgniter)</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="<?php echo site_url("blog") ?>" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="<?php echo site_url("blog") ?>">View All</a></li>
-              <li><a href="<?php echo site_url("blog/create") ?>">Add New</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
